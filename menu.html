@@ -1,0 +1,30 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button></ion-nav-back-button>
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="side-menu21"></ion-nav-view>
+  </ion-side-menu-content>
+  <ion-side-menu side="left" id="side-menu21">
+    <ion-header-bar class="bar-stable">
+      <div class="title">Menu</div>
+    </ion-header-bar>
+    <ion-content padding="false" class="side-menu-left has-header ">
+      <div class="spacer" style="width: 267.5px; height: 53px;"></div>
+      <ion-list id="menu-list1">
+        <ion-item id="menu-list-item10" ui-sref="menu.home()" menu-close="">Home</ion-item>
+        <ion-item id="menu-list-item1" ui-sref="menu.categories()" menu-close="">Categories</ion-item>
+        <ion-item id="menu-list-item3" ui-sref="menu.location()" menu-close="">Location</ion-item>
+        <ion-item id="menu-list-item7" ui-sref="menu.favourite()" menu-close="">Favourites</ion-item>
+        <ion-item id="menu-list-item8" ui-sref="menu.settings()" menu-close="">Settings</ion-item>
+      </ion-list>
+      <div class="spacer" style="width: 267.5px; height: 130.992px;"></div>
+      <ion-list id="menu-list4">
+        <ion-item class="assertive" id="menu-list-item9" ui-sref="login()" menu-close="">Log Out</ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

@@ -1,0 +1,37 @@
+<ion-view title="Location" id="page3">
+  <ion-content padding="true" class="has-header">
+    <creator-map-component options="{}" marker="true" location="Castries, St.lucia" zoom="28" style="display:block;position:relative;width:100%;height:300px;">
+      <ui-gmap-google-map ng-if="map.center" center="map.center" zoom="map.zoom" options="map.options">
+        <ui-gmap-marker coords="map.marker.coords" idkey="map.marker.id" options="map.marker.options"></ui-gmap-marker>
+      </ui-gmap-google-map>
+    </creator-map-component>
+    <h3 id="location-heading21" style="color:#000000;">District</h3>
+    <form id="location-form10" class="list">
+      <label class="item item-input" id="location-input9">
+        <span class="input-label">Input</span>
+        <input type="text" placeholder="">
+      </label>
+    </form>
+    <h3 id="location-heading20" style="color:#000000;">Community</h3>
+    <form id="location-form9" class="list">
+      <label class="item item-input" id="location-input7">
+        <span class="input-label">Input</span>
+        <input type="text" placeholder="">
+      </label>
+    </form>
+    <h3 id="location-heading19" style="color:#000000;">Road</h3>
+    <form id="location-form8" class="list">
+      <label class="item item-input" id="location-input8">
+        <span class="input-label">Input</span>
+        <input type="text" placeholder="">
+      </label>
+      <h3 id="location-heading22" style="color:#000000;">Special Instructions</h3>
+      <label class="item item-input" id="location-textarea1">
+        <span class="input-label"></span><textarea placeholder=""></textarea></label>
+    </form>
+    <div class="spacer" style="width: 747.5px; height: 50px;"></div>
+    <div style="margin-right:-20px;">
+      <button id="location-button82" style="left:-10px;" class="button button-positive button-full icon ion-android-arrow-forward">Connect to a Courier</button>
+    </div>
+  </ion-content>
+</ion-view>
